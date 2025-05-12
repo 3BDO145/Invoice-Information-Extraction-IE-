@@ -210,6 +210,13 @@ for tok_idx, word_idx in enumerate(encoding.word_ids()):
 ---
 
 ## Example Outputs
+### Visualized Receipt
+
+Below is an excerpt from the test set with predicted bounding boxes drawn in red and labels above each box:
+
+![Annotated Receipt](https://raw.githubusercontent.com/3BDO145/Invoice-Information-Extraction-IE-/main/Screenshot%202025-05-12%20034630.png)
+
+ *Red boxes indicate detected entities with their predicted labels.*
 
 ### DataFrame Snippet
 
@@ -229,11 +236,6 @@ for tok_idx, word_idx in enumerate(encoding.word_ids()):
 11  91000   I-total.cashprice      I-total.cashprice
 ```
 
-### Visualized Receipt
-
-Below is an excerpt from the validation set with predicted bounding boxes drawn in red and labels above each box:
-
-!\[Annotated Receipt]\(/mnt/data/Screenshot 2025-05-12 034630.png) *Red boxes indicate detected entities with their predicted labels.*
 
 ## Notes
 
@@ -243,6 +245,6 @@ Below is an excerpt from the validation set with predicted bounding boxes drawn 
 
 ---
 
-*Author: Expert NLU Engineer*
+*Author: Abdelrhman Kaled*
 
 *Last updated: May 2025*
